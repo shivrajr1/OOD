@@ -7,8 +7,9 @@ public class Spot {
     Spot(SpotType spotType, String spotId){
         this.spotId=spotId;
         this.spotType=spotType;
+        isFree=true;
     }
-    
+
     public String getSpotId() {
         return spotId;
     }
