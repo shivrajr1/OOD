@@ -2,6 +2,7 @@ public class Spot {
 
     private SpotType spotType;
     private String spotId;
+    private Vehicle vehicle;
     private boolean isFree;
 
     Spot(SpotType spotType, String spotId){
@@ -10,6 +11,12 @@ public class Spot {
         isFree=true;
     }
 
+    public Vehicle getVehicle() {
+        return vehicle;
+    }
+    public void setVehicle(Vehicle vehicle) {
+        this.vehicle = vehicle;
+    }
     public String getSpotId() {
         return spotId;
     }
